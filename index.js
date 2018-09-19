@@ -14,7 +14,7 @@ let titles = [];
 let output = [];
 
 // Reads and organizes CSV
-obj.from.path('../Prova ClassApp/input.csv').to.array(function (data) {
+obj.from.path('input.csv').to.array(function (data) {
 
     // Sets up titles
     for (let i = 0; i < data[0].length; i++) {
